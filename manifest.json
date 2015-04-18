@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "content_scripts": [ {
+        "exclude_globs":    [  ],
+        "include_globs":    [ "*" ],
+        "js":               [ "wow_armory.user.js" ],
+        "matches":          [   "https://us.battle.net/wow/*",
+                                "https://us.battle.net/wow/*"
+                            ],
+        "run_at": "document_end"
+    } ],
+    "converted_from_user_script": true,
+    "description":  "WOW armory alteration",
+    "name":         "WOw armory",
+    "version":      "1"
+}
